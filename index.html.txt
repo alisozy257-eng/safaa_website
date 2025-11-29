@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Safaa Saeed – Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', 'Cairo', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #f0f4f8, #d9e2ec);
+      color: #333;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: #fff;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    h1 {
+      color: #005b96;
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+    h2 {
+      color: #0077b6;
+      border-bottom: 2px solid #d0d0d0;
+      padding-bottom: 5px;
+      margin-top: 30px;
+    }
+    h3 {
+      color: #023e8a;
+      margin-top: 20px;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li::before {
+      content: "• ";
+      color: #0077b6;
+      font-weight: bold;
+    }
+    .contact p a {
+      color: #0077b6;
+      text-decoration: none;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Safaa Saeed</h1>
+    <div class="contact">
+      <p><strong>Location:</strong> Iraq, Mosul</p>
+      <p><strong>Postal Code:</strong> 41001</p>
+      <p><strong>Phone:</strong> <a href="tel:+9647716968834">+964 7716968834</a></p>
+      <p><strong>Email:</strong> <a href="mailto:safaa.24cs0100@student.uomosul.edu.iq">safaa.24cs0100@student.uomosul.edu.iq</a></p>
+    </div>
+
+    <div class="section">
+      <h2>Skills</h2>
+      <ul>
+        <li>Web Design</li>
+        <li>SQL & Database Design</li>
+        <li>Programming (Python, C++)</li>
+        <li>Academic Writing (Arabic–English)</li>
+        <li>PowerPoint & Report Formatting</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Experience</h2>
+      <h3>First Year (2024–2025)</h3>
+      <ul>
+        <li>Studied programming languages (Prolog, C++, Python)</li>
+        <li>Learned digital logic and binary language basics</li>
+        <li>Participated in website design using HTML & JavaScript</li>
+      </ul>
+      <h3>Second Year (2025–Present)</h3>
+      <ul>
+        <li>Exploring data science and SQL</li>
+        <li>Studying object-oriented programming (C#)</li>
+        <li>Practiced microprocessor simulation with EMU8086</li>
+        <li>Applied digital circuit design with CircuitMaker</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Education</h2>
+      <p><strong>Sep 2024 – Present</strong><br>
+      University of Mosul – Bachelor of Science in Artificial Intelligence<br>
+      Focused on programming (Python, C++, C#), data science, SQL, digital logic, microprocessors, and software engineering. Active participant in student initiatives and technical teams.</p>
+    </div>
+
+    <div class="section">
+      <h2>Projects</h2>
+      <p><strong>2025 – Healthy Food Website</strong><br>
+      Designed and developed a simple website about healthy food using HTML, CSS, and JavaScript. Focused on presenting nutritional information and promoting healthy lifestyle choices.</p>
+    </div>
+  </div>
+</body>
+</html>
